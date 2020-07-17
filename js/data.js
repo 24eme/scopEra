@@ -13,14 +13,6 @@ var markerAutre = L.icon({
 function onEachFeature(feature, layer) {
     if (feature.properties && feature.properties.popupContent) {
         layer.bindPopup(feature.properties.popupContent);
-        layer.setIcon(markerInfo).addTo(map);
-        // console.log(feature.properties.secteur);
-        // for( var i=0; i<7;i++){
-        //   if (feature.properties.secteur=="production"){
-        //     layer.setIcon(markerInfo).addTo(map);
-        //   };
-        // layer.setIcon(markerAutre).addTo(map);
-        //  };
     };
 };
 
@@ -126,6 +118,27 @@ var scops = [
 ];
 
 L.geoJSON(scops, {
+  pointToLayer: function(feature, latlng) {
+        if (feature.properties.secteur=="informatique"){
+          var icon = L.icon({
+              iconUrl: 'css/img/computers.png',
+              iconSize: [30, 30],
+          });
+        }
+        if (feature.properties.secteur=="production"){
+          var icon = L.icon({
+              iconUrl: 'css/img/employment.png',
+              iconSize: [30, 30],
+          });
+        }
+        // else{
+        //   var icon = L.icon({
+        //       iconUrl: 'css/img/marker.png',
+        //       iconSize: [30, 30],
+        //   });
+        // }
+        return L.marker(latlng, {icon: icon});
+    },
     onEachFeature: onEachFeature
 }).addTo(map);
 
