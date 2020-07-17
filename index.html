@@ -11,21 +11,28 @@
      <title>Scop Era</title>
   </head>
    <body>
-     <h1>Cartographie</h1>
+     <h1></h1>
 
-     <div class="filter_container">
-     <h1>Filtrer par :</h1>
+     <nav class="navbar navbar-default navbar-fixed-top bg-dark filter_container">
+     <li class="nav-item"><h1>Filtrer par :</h1></li> 
      <form action="">
             <label for="">Nom</label>
+            <input type="text" name="name_search" value="Recherche par nom">
          		<div class="group">
             <label for="">Secteur :</label>
-            <input type="checkbox" id="secteur">
+            <select class="" name="">
+              <option value="">Agriculture</option>
+              <option value="">Commerce</option>
+              <option value="">Service social</option>
+              <option value=""></option>
+              <option value="">Informatique</option>
+            </select>
+            <!-- <input type="checkbox" id="secteur"> -->
          		<label for="fast"><span>Fast</span></label>
          		</div>
             <div class="group">
             <label for="">Arrondisement :</label>
-            <input type="checkbox" id="arrondisement">
-            <label for="fast"><span></span></label>
+            <input type="checkbox" id="arrondisement" placeholder="Arrondisement:">
             </div>
             <div class="group">
             <label for="">Notes</label>
@@ -33,7 +40,7 @@
             <label for="fast"><span>Fast</span></label>
             </div>
        </form>
-       </div>
+       </nav>
 
      <div id="map"></div>
           <script src="js/leaflet-src.js" ></script>
