@@ -1,3 +1,16 @@
+
+var marker = L.icon({
+    iconUrl: '../css/img/marker.png',
+    iconSize: [30, 30],
+});
+
+function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.popupContent) {
+        layer.bindPopup(feature.properties.popupContent);
+        layer.setIcon(marker).addTo(map);
+    }
+};
+
 var scops = [
   {
     "type": "Feature",
@@ -107,23 +120,10 @@ var scops = [
 // L.geoJSON(scops, {
 //     style: myStyle
 // }).addTo(map);
-function onEachFeature(feature, layer) {
-    // does this feature have a property named popupContent?
-    if (feature.properties && feature.properties.popupContent) {
-        layer.bindPopup(feature.properties.popupContent);
-    }
-}
 L.geoJSON(scops, {
     onEachFeature: onEachFeature
 }).addTo(map);
-
-function fillMap(data){
-  for (var i = 0; i < data.length; i++) {
-    var marker = L.marker(data[i]).addTo(map);
-  }
-}
 //L.geoJSON(geojsonFeature).addTo(map);
-fillMap(scops);
 
 
 //Pour moi filtrage

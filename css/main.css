@@ -22,5 +22,7 @@ h1{
 }
 #map{
   height: 60%;
-  box-shadow: 10px 10px 5px -5px  rgba(250,250,250,0.5);
+  -webkit-box-shadow: inset 10px 10px 0px -8px rgba(13,13,13,1);
+-moz-box-shadow: inset 10px 10px 0px -8px rgba(13,13,13,1);
+box-shadow: inset 10px 10px 0px -8px rgba(13,13,13,1);
 }
