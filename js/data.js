@@ -1,4 +1,4 @@
-
+// https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038369660&dateTexte=&categorieLien=id
 var marker = L.icon({
     iconUrl: '../css/img/marker.png',
     iconSize: [30, 30],
@@ -100,7 +100,7 @@ var scops = [
 
 L.geoJSON(scops, {
     onEachFeature: onEachFeature
-}).addTo(map); 
+}).addTo(map);
 
 //Pour moi filtrage
 // function checkScop(filtrage) {
