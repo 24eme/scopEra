@@ -9,7 +9,6 @@ body,html{
 *{
   font-family: Quicksand;
   letter-spacing: 2px;
-    color: white;
 }
 li{
   font-size: 12px;
@@ -17,6 +16,7 @@ li{
   display: inline-block;
   margin: 10px;
   margin-left: 50px;
+  color: white;
 }
 label{
   font-size: 15px;
