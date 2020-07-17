@@ -49,3 +49,46 @@ cooperative = [
     "lng":"2.3643888",
   }
 ];
+
+
+
+
+{
+  "type": "Feature",
+  "properties": {
+      "name": "24ème",
+      "arrondisement": "14",
+      "adresse": "12 Rue de l'Amiral Mouchez, 75014 Paris, France",
+      "popupContent": "24ème",
+  },
+  "geometry": {
+      "type": "Point",
+      "coordinates": [48.8254034, 2.3414492]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+      "name": "ACADIE",
+      "arrondisement": "12",
+      "adresse": "170 Bis RUE DU FBG SAINT-ANTOINE 75012 PARIS",
+      "popupContent": "ACADIE"
+  },
+  "geometry": {
+      "type": "Point",
+      "coordinates": [48.850406646728516, 2.381659746170044]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+      "name": "24ème",
+      "arrondisement": "14",
+      "adresse": "12 Rue de l'Amiral Mouchez, 75014 Paris, France",
+      "popupContent": "24ème"
+  },
+  "geometry": {
+      "type": "Point",
+      "coordinates": [48.8254034, 2.3414492]
+  }
+},
