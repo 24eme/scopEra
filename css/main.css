@@ -7,19 +7,38 @@ body,html{
   background-color: #252626;
 }
 *{
-  font-family: Arial;
+  font-family: Quicksand;
   letter-spacing: 2px;
+    color: white;
+}
+li{
+  font-size: 12px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 50px;
+}
+label{
+  font-size: 15px;
+}
+ul{
+  text-align: center;
+}
+input{
+  border: none;
+  border-bottom:1px solid white;
+  background-color: inherit;
+}
+select,option{
+  background-color: rgba(240,240,240,0.5);
+  border:none;
+  padding: 10px;
 }
 h1{
   text-align: center;
-  padding: 1em;
 }
-.filter_container{
-  position: absolute;
-  width: 20%;
-  height: 20%;
-  color: white;
-
+.navbar{
+  height: 60px !important;
 }
 #map{
   height: 86%;

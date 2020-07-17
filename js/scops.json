@@ -1,0 +1,92 @@
+{
+    "type": "FeatureCollection",
+    "features":
+[
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "arrondisement": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.353057, 48.894436]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "arrondisement": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "arrondisement": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "arrondisement": "Baseball Stadium",
+        "secteur": "",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+]
+
+}
