@@ -1,15 +1,27 @@
 // https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038369660&dateTexte=&categorieLien=id
 // https://www.coordonnees-gps.fr/
-var marker = L.icon({
+var markerInfo = L.icon({
     iconUrl: 'css/img/marker.png',
     iconSize: [30, 30],
 });
 
+var markerAutre = L.icon({
+  iconUrl: 'css/img/employment.png',
+  iconSize: [30, 30],
+})
+
 function onEachFeature(feature, layer) {
     if (feature.properties && feature.properties.popupContent) {
         layer.bindPopup(feature.properties.popupContent);
-        layer.setIcon(marker).addTo(map);
-    }
+        layer.setIcon(markerInfo).addTo(map);
+        // console.log(feature.properties.secteur);
+        // for( var i=0; i<7;i++){
+        //   if (feature.properties.secteur=="production"){
+        //     layer.setIcon(markerInfo).addTo(map);
+        //   };
+        // layer.setIcon(markerAutre).addTo(map);
+        //  };
+    };
 };
 
 var scops = [
