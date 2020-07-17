@@ -23,13 +23,13 @@
             <li class="nav-item">
             <label for="">Secteur :</label>
             <select class="" name="">
-              <option id="" value="Culture">Culture</option>
-              <option id="" value="Commerce">Commerce</option>
-              <option id="" value="Commerce">Education</option>
-              <option id="" value="Social">Service social</option>
-              <option id="" value="Santé">Santé</option>
-              <option id="" value="Environnement">Environnement</option>
-              <option id="" value="Informatique">Informatique</option>
+              <option id="culture" value="Culture" onclick="mape()">Culture</option>
+              <option id="business" value="Commerce">Commerce</option>
+              <option id="education" value="Education">Education</option>
+              <option id="social" value="Social">Service social</option>
+              <option id="health" value="Santé">Santé</option>
+              <option id="environment" value="Environnement">Environnement</option>
+              <option id="engineering" value="Informatique">Informatique</option>
             </select>
          		</li>
             <li class="nav-item">
@@ -41,7 +41,6 @@
 
      <div id="map"></div>
           <script src="js/leaflet-src.js" ></script>
-          <script type="text/javascript" src="js/scops.json" ></script>
           <script type="text/javascript" src="js/data.js" ></script>
    </body>
 </html>

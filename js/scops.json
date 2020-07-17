@@ -5,20 +5,72 @@
   {
     "type": "Feature",
     "properties": {
-        "name": "Coors Field",
+        "name": "Acome",
+        "address": "52 RUE DU MONTPARNASSE, 75014 PARIS",
+        "field": "Informatique",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3381113, 48.8740412]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Develop'it",
+        "address": "46 Rue Saint-Antoine, 75004 Paris",
+        "field": "Informatique",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3643888, 48.8541803]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "24ème",
+        "address": "12 RUE DE L'AMIRAL MOUCHEZ, 75014 PARIS",
+        "field": "Informatique",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "ACADIE",
         "arrondisement": "Baseball Stadium",
         "popupContent": "This is where the Rockies play!"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [2.353057, 48.894436]
+        "coordinates": [2.3414492, 48.8254034]
     }
   },
   {
     "type": "Feature",
     "properties": {
-        "name": "Coors Field",
-        "arrondisement": "Baseball Stadium",
+        "name": "BIOPULSE",
+        "address": "15 Impasse Mousset, 75012 Paris",
+        "popupContent": "This is where the dcdjij play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3912175, 48.8455974]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "QUALE",
+        "address": "131 AVENUE DE VERSAILLES, 75016 PARIS",
+        "field": "Environnement",
         "popupContent": "This is where the Rockies play!"
     },
     "geometry": {
@@ -29,62 +81,14 @@
   {
     "type": "Feature",
     "properties": {
-        "name": "Coors Field",
-        "arrondisement": "Baseball Stadium",
+        "name": "IXREF",
+        "address": "65 RUE D'ALESIA 75014 PARIS",
+        "field":"Business",
         "popupContent": "This is where the Rockies play!"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [2.3414492, 48.8254034]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-        "name": "Coors Field",
-        "amenity": "Baseball Stadium",
-        "popupContent": "This is where the Rockies play!"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [2.3414492, 48.8254034]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-        "name": "Coors Field",
-        "arrondisement": "Baseball Stadium",
-        "secteur": "",
-        "popupContent": "This is where the Rockies play!"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [2.3414492, 48.8254034]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-        "name": "Coors Field",
-        "amenity": "Baseball Stadium",
-        "popupContent": "This is where the Rockies play!"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [2.3414492, 48.8254034]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-        "name": "Coors Field",
-        "amenity": "Baseball Stadium",
-        "popupContent": "This is where the Rockies play!"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [2.3414492, 48.8254034]
+        "coordinates": [2.3270492553710938, 48.8277159]
     }
   },
 ]
