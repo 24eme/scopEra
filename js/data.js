@@ -1,15 +1,3 @@
-// https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038369660&dateTexte=&categorieLien=id
-// https://www.coordonnees-gps.fr/
-var markerInfo = L.icon({
-    iconUrl: 'css/img/marker.png',
-    iconSize: [30, 30],
-});
-
-var markerAutre = L.icon({
-  iconUrl: 'css/img/employment.png',
-  iconSize: [30, 30],
-})
-
 function onEachFeature(feature, layer) {
     if (feature.properties && feature.properties.popupContent) {
         layer.bindPopup(feature.properties.popupContent);
@@ -64,7 +52,7 @@ var scops = [
     "properties": {
         "name": "Bearstech",
         "arrondisement": "0",
-        "secteur": "informatique",
+        "secteur": "médicale",
         'adresse':'40 Passage des Panoramas, Paris, France',
         "popupContent": "Bearstech"
     },
@@ -104,6 +92,48 @@ var scops = [
   {
     "type": "Feature",
     "properties": {
+        "name": "ACADIE",
+        "arrondisement": "11",
+        "secteur": "production",
+        'adresse':'170 Bis RUE DU FBG SAINT-ANTOINE 75011 PARIS',
+        "popupContent": "ACADIE"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3732022,48.8520337]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "CAP",
+        "arrondisement": "12",
+        "secteur": "bancaire",
+        'adresse':'21 RUE DE FECAMP 75012 PARIS',
+        "popupContent": "CAP"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3988467, 48.8353243]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "ETYSSA",
+        "arrondisement": "8",
+        "secteur": "médicale",
+        'adresse':'57 Rue d\'Amsterdam, 75009 Paris, France',
+        "popupContent": "ETYSSA"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3269719, 48.8805759]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
         "name": "Develop'it",
         "arrondisement": "4",
         "secteur": "informatique",
@@ -131,12 +161,19 @@ L.geoJSON(scops, {
               iconSize: [30, 30],
           });
         }
-        // else{
-        //   var icon = L.icon({
-        //       iconUrl: 'css/img/marker.png',
-        //       iconSize: [30, 30],
-        //   });
-        // }
+        if (feature.properties.secteur=="médicale"){
+          var icon = L.icon({
+              iconUrl: 'css/img/health-medical.png',
+              iconSize: [30, 30],
+          });
+        }
+        if (feature.properties.secteur=="bancaire"){
+          var icon = L.icon({
+              iconUrl: 'css/img/bank.png',
+              iconSize: [30, 30],
+          });
+        }
+
         return L.marker(latlng, {icon: icon});
     },
     onEachFeature: onEachFeature
