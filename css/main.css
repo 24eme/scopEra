@@ -18,10 +18,11 @@ h1{
   position: absolute;
   width: 20%;
   height: 20%;
+  color: white;
 
 }
 #map{
-  height: 60%;
+  height: 86%;
   -webkit-box-shadow: inset 10px 10px 0px -8px rgba(13,13,13,1);
 -moz-box-shadow: inset 10px 10px 0px -8px rgba(13,13,13,1);
 box-shadow: inset 10px 10px 0px -8px rgba(13,13,13,1);

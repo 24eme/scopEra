@@ -1,7 +1,8 @@
 // https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038369660&dateTexte=&categorieLien=id
+// https://www.coordonnees-gps.fr/
 var marker = L.icon({
-    iconUrl: '../css/img/marker.png',
-    iconSize: [30, 30],
+    iconUrl: 'css/img/marker.png',
+    iconSize: [35, 30],
 });
 
 function onEachFeature(feature, layer) {
@@ -16,7 +17,7 @@ var scops = [
     "type": "Feature",
     "properties": {
         "name": "Coors Field",
-        "amenity": "Baseball Stadium",
+        "arrondisement": "Baseball Stadium",
         "popupContent": "This is where the Rockies play!"
     },
     "geometry": {
@@ -28,7 +29,19 @@ var scops = [
     "type": "Feature",
     "properties": {
         "name": "Coors Field",
-        "amenity": "Baseball Stadium",
+        "arrondisement": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [2.3414492, 48.8254034]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "arrondisement": "Baseball Stadium",
         "popupContent": "This is where the Rockies play!"
     },
     "geometry": {
@@ -52,19 +65,8 @@ var scops = [
     "type": "Feature",
     "properties": {
         "name": "Coors Field",
-        "amenity": "Baseball Stadium",
-        "popupContent": "This is where the Rockies play!"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [2.3414492, 48.8254034]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-        "name": "Coors Field",
-        "amenity": "Baseball Stadium",
+        "arrondisement": "Baseball Stadium",
+        "secteur": "",
         "popupContent": "This is where the Rockies play!"
     },
     "geometry": {
