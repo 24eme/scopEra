@@ -1,0 +1,51 @@
+cooperative = [
+  {
+    "name":"Yes High Tech ",
+    "secteur":"production",
+    "adresse":"20 Rue Saint-Joseph, 42000 Saint-Étienne, France",
+    "lat":"45.44225311279297",
+    "lng":"4.375606060028076",
+  },
+  {
+    "name":"24ème",
+    "secteur":"informatique",
+    "adresse":"40 rue Laffitte,75009 Paris",
+    "lat":"48.8740412",
+    "lng":"2.3381113",
+  },
+  {
+    "name":"DALIBO",
+    "secteur":"informatique",
+    "adresse":"43 Rue du Faubourg Montmartre, 75009 Paris",
+    "lat":"48.8745253",
+    "lng":"2.3415619",
+  },
+  {
+    "name":"Bearstech",
+    "secteur":"informatique",
+    "adresse":"40 Passage des Panoramas, Paris, France",
+    "lat":"48.87087631225586",
+    "lng":"2.341618776321411",
+  },
+  {
+    "name":"V-Technologies",
+    "secteur":"informatique",
+    "adresse":"6 Avenue Franklin Delano Roosevelt, 75008 Paris",
+    "lat":"48.86988830566406",
+    "lng":"2.3100507259368896",
+  },
+  {
+    "name":"SCOP IT",
+    "secteur":"informatique",
+    "adresse":"5 Rue Richard Lenoir, 75011 Paris",
+    "lat":"48.8543903",
+    "lng":"2.3823288",
+  },
+  {
+    "name":"Develop'it",
+    "secteur":"informatique",
+    "adresse":"46 Rue Saint-Antoine, 75004 Paris",
+    "lat":"48.8541803",
+    "lng":"2.3643888",
+  }
+];
